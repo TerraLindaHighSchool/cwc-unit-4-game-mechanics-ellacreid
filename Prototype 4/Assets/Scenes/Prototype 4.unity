@@ -223,7 +223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a94c59a4b54b47b48d7b2fb95518aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCount: 0
+  waveNumber: 1
   enemyPrefab: {fileID: 1202322843750920240, guid: fdc2e647e35c34a25a0faaa99e7f0a88,
+    type: 3}
+  powerupPrefab: {fileID: 2876288393482516788, guid: 468ec00bc53ab47a9a4f3fe3dfdceb24,
     type: 3}
 --- !u!4 &322181483
 Transform:
@@ -758,6 +762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Powerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876288393482516788, guid: 468ec00bc53ab47a9a4f3fe3dfdceb24,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2876288393482606576, guid: 468ec00bc53ab47a9a4f3fe3dfdceb24,
         type: 3}
